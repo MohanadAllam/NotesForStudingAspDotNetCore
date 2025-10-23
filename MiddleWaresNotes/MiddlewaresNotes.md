@@ -31,17 +31,17 @@ app.Run(async (HttpContext Context) => {
    Forward the (Request الطلب طبعاا) to the (Next Middleware).
 
 # Middleware Chaine Or Application-PipeLine
-           Middleware 1
-Request =>	// code			  Middleware 2
-			next(); ========> // code          Middleware 3
-							  next(); =======> //code
-							                   // no next();
-											        ||
-						// more code	 <==========||
-						      ||
-	// more code   <==========||
-	      ||
-	  (Response)
+   Middleware 1 
+Request=>//code     middleware 2     middleware 3
+	     next();  ==> //code    
+                      next();   ====> //code
+	                               no next(); XX
+				   //more code  <---------|
+      //more code <-------|
+	       |
+		   V
+     Final Response
+                                    
 
 # Note No.1:
 By (Default) the middleware is of (Request Delegate) type.
