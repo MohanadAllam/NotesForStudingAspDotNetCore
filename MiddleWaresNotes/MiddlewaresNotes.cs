@@ -17,4 +17,11 @@ app.Run(async (HttpContext context) =>
     await context.Response.WriteAsync("Hello Again");
 });
 
+// Custom middleware instead of the third middleware:
+//First Way of Writing before using Extension Method
+app.UseMiddleware<MyCustomMiddleware>();
+//Second way of Writing after using Extension Method
+app.UseMyCustomMiddleware();
+
+
 app.Run();

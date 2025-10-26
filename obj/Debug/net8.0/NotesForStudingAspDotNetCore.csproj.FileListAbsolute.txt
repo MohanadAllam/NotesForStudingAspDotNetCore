@@ -26,3 +26,4 @@ C:\Users\Mohan\Desktop\Repos For Projects\C-Sharp-Projects\NotesForStudingAspDot
 C:\Users\Mohan\Desktop\Repos For Projects\C-Sharp-Projects\NotesForStudingAspDotNetCore\NotesForStudingAspDotNetCore\obj\Debug\net8.0\NotesForStudingAspDotNetCore.pdb
 C:\Users\Mohan\Desktop\Repos For Projects\C-Sharp-Projects\NotesForStudingAspDotNetCore\NotesForStudingAspDotNetCore\obj\Debug\net8.0\NotesForStudingAspDotNetCore.genruntimeconfig.cache
 C:\Users\Mohan\Desktop\Repos For Projects\C-Sharp-Projects\NotesForStudingAspDotNetCore\NotesForStudingAspDotNetCore\obj\Debug\net8.0\ref\NotesForStudingAspDotNetCore.dll
+C:\Users\Mohan\Desktop\Repos For Projects\C-Sharp-Projects\NotesForStudingAspDotNetCore\NotesForStudingAspDotNetCore\obj\Debug\net8.0\NotesForStudingAspDotNetCore.sourcelink.json
