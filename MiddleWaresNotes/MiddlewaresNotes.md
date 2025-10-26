@@ -1,4 +1,12 @@
-﻿## MiddleWares:
+﻿### MiddleWares:
+
+#### MiddleWares:
+##### MiddleWares:
+###### MiddleWares:
+*gg*
+**gg**
+/*g*/
+
 ==> the component in the Application Pipeline to handle requests and 
 responses.
 
