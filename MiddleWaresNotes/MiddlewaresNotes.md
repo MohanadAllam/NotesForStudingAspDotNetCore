@@ -1,4 +1,4 @@
-﻿# MiddleWares:
+﻿## MiddleWares:
 ==> the component in the Application Pipeline to handle requests and 
 responses.
 
@@ -13,8 +13,8 @@ middleware
 الخاص بالعملية دى
 
 # Can be wriiten in 2 ways:
-1 - Anonymous Method / Lambda Expression
-2 - Class
+- 1 Anonymous Method / Lambda Expression
+- 2 Class
 
 # Ex1:
 app.Run(async (HttpContext Context) => {
