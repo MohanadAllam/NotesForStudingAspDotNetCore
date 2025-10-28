@@ -7,7 +7,7 @@ program.cs file.
 - So No need for app.UseRouting() anymore.
 
 User ==HttpRequest====> URL(if matched ?) =====> EndPoint (Actually middleware)
-For Ex:
+###### For Ex:
 If the URL ==> /home ==> the client will go to the **Home page**
 If the URL ==> /about ==> the client will go to the **About page**
 
