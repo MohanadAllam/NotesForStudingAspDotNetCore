@@ -225,7 +225,8 @@ where.
     } <br>
     ); <br>
 ##### We Can Configure/Use Multiple "WebRoot Folders".
-[How to configure Multiple WebRoot Folders](Diagrams/MultibleWebRootFolders.png)
+#####[How to configure Multiple WebRoot Folders]
+<img width="1217" height="421" alt="MultibleWebRootFolders" src="https://github.com/user-attachments/assets/a23f6d00-b75b-4e6f-8872-b9cd7770eb5e" />
 
 
 
