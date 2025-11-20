@@ -199,6 +199,35 @@ where.
         ###### Ex: "a/{b}" is higher than "a/**"
 
 ## WebRoot and UseStaticFiles(): 
+#### An ASP.Net core web application may contain static files or static content such as images, text files, PDF files, and javascript files, CSS files ,etc.
+- Generally while working with **views**, you require to use all these kind files.
+- By default these files cannot be served by ASP.NET Core.
+- You require to enable it by using **Use Static Files Middleware** which enables the ASP.Net core application to serve the static files if the URL contains the file path.
+#### What is the steps of the process ?
+- 1 - Request to /filename.extension
+- 2 - This request will forward to **Use StaticFiles()**
+- 3 - This Function we will ask us if the file exists in the **WebRoot folder** 
+- 4 - If **Yes** send the file as a response.
+- 5 - If **No** HTTP 404
+- **Note** --> The default WebRoot folder is "wwwroot" / You can change it.
+
+#### How to use [UseStaticFiles()]:
+- 1 - Write in the app **app.UseStaticFiles()**.
+- 2 - And when you write the name of the **file** that **Exists in the wwwroot** after the path in the browser --> the file will be visiable in the browser.
+
+#### How to use [UseStaticFiles()] If the Webroot folder named with another name:
+##### You should Configure it.
+- By: <br>
+    var builder = WebApplication.CreateBuilder( <br>
+    new WebApplicationOptions() <br>
+    { <br>
+        WebRootPath = "---HereYourName---" <br>
+    } <br>
+    ); <br>
+##### We Can Configure/Use Multiple "WebRoot Folders".
+[How to configure Multiple WebRoot Folders](Diagrams/MultibleWebRootFolders.png)
+
+
 
 
 

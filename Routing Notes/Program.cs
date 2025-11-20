@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,3 +20,15 @@ app.Map("map2", async (context) =>
 });
 
 app.Run();
+
+
+// app.UseStaticFiles(); // Works with web root path (my root) the first one created
+// app.UseStaticFiles(new StaticFileOptions()
+// {
+//     FileProvider = new PhysicalFileProvider(
+//         Path.Combine
+//         (builder.Environment.ContentRootPath,
+//         "mywebroot")
+//     )
+// }); // works with mywebroot - the second one
+
